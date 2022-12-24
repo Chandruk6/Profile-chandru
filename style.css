@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#myprofile h1,.navbar-brand h3, #about h1,footer h1,#contact h1,#Portfolio h1,#skill h1 {
+     background: -webkit-linear-gradient(rgb(243, 2, 143), #333);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+#myprofile p, #about p{
+    font-size: 30px;
+}
+.section-padding{
+    padding: 100px 0px;
+}
+.section-padding1{
+    padding: 140px 0px;
+}
+.section-padding2{
+    padding: 20px 0px;
+}
+.icons i{
+    background-color: purple; 
+    color: white;
+    font-size: 30px;
+}
+@media  (max-width:580px) {
+    #myprofile img{
+        width: 150%;
+        margin-bottom: 30px;
+    }
+    #myprofile h1 {
+        font-size: 20px;
+    }
+    #myprofile p, #about p{
+        font-size: 10px;
+    }
+    #contact h2,#contact h4 {
+        font-size: 18px;
+    }
+    #Portfolio .card{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+   #myprofile .btn,#about .btn{
+        font-size:10px;
+    }
+    #skill img{
+        margin-top: 25%;
+    }
+}
